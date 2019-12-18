@@ -49,9 +49,9 @@ p {
   font-weight: 500;
 }
 
-.header-section img{
-	filter: contrast(0.6);
-    width: 131px;
+.header-section img {
+  filter: contrast(0.6);
+  width: 131px;
 }
 
 img {
@@ -92,8 +92,8 @@ ol {
 }
 
 .spad {
-  padding-top: 105px;
-  padding-bottom: 105px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .text-white h1,
@@ -231,7 +231,6 @@ Header section
   color: #000;
 }
 
-
 .main-menu {
   list-style: none;
   float: right;
@@ -305,13 +304,13 @@ Header section
 Hero section
  ---------------------*/
 
- 
 .hero-section {
   overflow: hidden;
 }
 
 .hs-item {
-  height: 724px;
+  height: auto;
+  padding-top: 20px;
   padding-bottom: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -357,7 +356,7 @@ Hero section
 }
 
 .hs-item .hs-text {
-  padding-top: 90px;
+  padding-top: 0px;
   max-width: 475px;
 }
 
@@ -432,8 +431,8 @@ Intro section
   margin-bottom: 35px;
   padding-top: 10px;
 }
-.section-title h2{
-	color: #FC0254;
+.section-title h2 {
+  color: #fc0254;
 }
 
 /* ----------------
@@ -474,6 +473,8 @@ Subscription section
 
 .subscription-section {
   background: #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .sub-text {
@@ -481,7 +482,7 @@ Subscription section
 }
 
 .sub-text h2 {
-	color: #FC0254;
+  color: #fc0254;
   font-size: 60px;
   margin-bottom: 20px;
   font-weight: 500;
@@ -520,7 +521,10 @@ Subscription section
 /* ----------------
 Premium section 
  -------------------*/
-
+.how-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .premium-section p {
   margin-bottom: 50px;
 }
@@ -545,8 +549,8 @@ Premium section
   margin-bottom: 0;
 }
 
-.app-store-btn img{
-	margin: 10px;
+.app-store-btn img {
+  margin: 10px;
 }
 
 /* ----------------
@@ -557,9 +561,9 @@ Responsive
   background: #000;
   padding: 100px 0 85px;
 }
-footer img{
-	filter: contrast(0.9);
-    width: 200px;
+footer img {
+  filter: contrast(0.9);
+  width: 200px;
 }
 .copyright {
   font-size: 11px;
@@ -574,4 +578,37 @@ footer img{
   color: #fff;
   font-size: 18px;
   margin-right: 35px;
+}
+
+.sidebar-section {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  max-width: 300px;
+  background: #fff;
+  color: #000;
+  z-index: 132435465768;
+}
+.sidebar-section ul,
+.sidebar-section li {
+  display: block;
+  padding: 0px;
+  text-align: left;
+  color: #000;
+}
+.sidebar-section ul li a {
+  color: #000;
+}
+
+.sidebar-section .menu {
+  display: block;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 44px 50px;
+}
+
+.sidebar-section .menu li {
+  display: block;
+  padding: 10px 30px;
 }
