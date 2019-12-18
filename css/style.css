@@ -612,3 +612,36 @@ footer img {
   display: block;
   padding: 10px 30px;
 }
+
+.main-menu ul {
+  padding-left: 1em;
+  position: fixed;
+  bottom: 0;
+  font-weight: 400;
+  z-index: 100;
+  min-width: 20em;
+}
+
+li {
+  list-style: none;
+  margin: 0.5em 0 0;
+}
+li.invisible {
+  opacity: 0;
+  visibility: hidden;
+  transition: all;
+}
+li.animate {
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+i {
+  border: 2px solid #fff;
+  padding: 0.5em;
+  border-radius: 50%;
+}
